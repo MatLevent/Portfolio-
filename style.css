@@ -12,6 +12,30 @@ header {
   text-align: center;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* aligns links to the left */
+  gap: 20px; /* space between logo and links */
+  margin-bottom: 20px; /* space between nav and h1 */
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header nav a {
+  margin-left: 0;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a.active {
+  text-decoration: underline;
+}
 
 header h1 {
   margin: 0;
@@ -66,6 +90,7 @@ footer {
   text-align: center;
   padding: 25px;
 }
+
 
 
 
