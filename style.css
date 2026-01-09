@@ -1,87 +1,67 @@
-/* =========================
-   RESET
-   ========================= */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
 body {
-	line-height: 1;
-	-webkit-text-size-adjust: none;
-	background-color: #1e252d;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f6fb;
+  color: #1a1a1a;
 }
 
-ol, ul {
-	list-style: none;
+header {
+  background: linear-gradient(135deg, #0a3cff, #0a7cff);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-blockquote, q {
-	quotes: none;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
 }
 
-mark {
-	background-color: transparent;
-	color: inherit;
+h2 {
+  color: #0a3cff;
+  border-bottom: 3px solid #0a3cff;
+  display: inline-block;
+  padding-bottom: 6px;
 }
 
-input, select, textarea {
-	appearance: none;
+.skills {
+  list-style: none;
+  padding: 0;
 }
 
-/* =========================
-   BASE TYPOGRAPHY
-   ========================= */
-body, input, select, textarea {
-	font-family: "Merriweather", Georgia, serif;
-	font-weight: 300;
-	font-size: 1rem;
-	line-height: 2.2;
-	color: #e6edf3;
+.skills li {
+  display: inline-block;
+  background: #e0ebff;
+  color: #0a3cff;
+  padding: 10px 14px;
+  margin: 6px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
-p {
-	margin-bottom: 2rem;
-	text-align: justify;
+.project {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 5px solid #0a3cff;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-strong, b {
-	font-weight: 600;
-	color: #ffffff;
+footer {
+  background: #0a3cff;
+  color: white;
+  text-align: center;
+  padding: 25px;
 }
-
-em, i {
-	font-style: italic;
-}
-
-a
