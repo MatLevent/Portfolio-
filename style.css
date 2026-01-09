@@ -103,7 +103,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #f0c674;  /* hover color */
+  color: #3d5a80;  /* hover color */
 }
 
 footer .social-links {
@@ -114,6 +114,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
