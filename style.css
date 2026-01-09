@@ -88,7 +88,7 @@ h2 {
 }
 
 footer {
-  background: #0a3cff;
+  background: linear-gradient(135deg, #3d5a80, #3d5a81); 
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -114,6 +114,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
