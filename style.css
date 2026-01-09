@@ -5,10 +5,10 @@ body {
   color: #1a1a1a;
 }
 
-header {
-  background: #3d5a80; /* updated header color */
-  color: white;
-  padding: 60px 20px;
+header { 
+  background: linear-gradient(135deg, #3d5a80, #3d5a81); 
+  color: white; 
+  padding: 60px 20px; 
   text-align: center;
 }
 
@@ -66,5 +66,6 @@ footer {
   text-align: center;
   padding: 25px;
 }
+
 
 
