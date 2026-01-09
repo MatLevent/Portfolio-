@@ -91,8 +91,30 @@ footer {
   background: #0a3cff;
   color: white;
   text-align: center;
-  padding: 25px;
+  padding: 40px 20px;
 }
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f0c674;  /* hover color */
+}
+
+footer .social-links {
+  margin: 15px 0;
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
 
 
 
