@@ -16,7 +16,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-start; /* aligns links to the left */
-  gap: 20px; /* space between logo and links */
+  gap: 50px; /* space between logo and links */
   margin-bottom: 20px; /* space between nav and h1 */
 }
 
@@ -93,6 +93,7 @@ footer {
   text-align: center;
   padding: 25px;
 }
+
 
 
 
