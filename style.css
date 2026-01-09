@@ -6,11 +6,12 @@ body {
 }
 
 header {
-  background: #3d5a80;
+  background: #3d5a80; /* updated header color */
   color: white;
   padding: 60px 20px;
   text-align: center;
 }
+
 
 header h1 {
   margin: 0;
@@ -65,4 +66,5 @@ footer {
   text-align: center;
   padding: 25px;
 }
+
 
