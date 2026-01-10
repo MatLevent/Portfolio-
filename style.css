@@ -13,12 +13,24 @@ header {
 }
 
 .nav-container {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* aligns links to the left */
-  gap: 10px; /* space between logo and links */
-  margin-bottom: 30px; /* space between nav and h1 */
+  margin-bottom: 30px;
 }
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
+
 
 header .logo {
   font-weight: 900;          /* make it extra bold */
@@ -145,6 +157,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
