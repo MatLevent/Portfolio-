@@ -16,7 +16,7 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 nav {
@@ -157,6 +157,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
