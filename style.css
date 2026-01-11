@@ -68,6 +68,32 @@ section {
   padding: 50px 20px;
 }
 
+.projects-hero {
+  position: relative;
+  height: 320px;
+  background-image: url("images/projects-banner.jpg"); /* your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* dark overlay for text contrast */
+}
+
+.projects-hero h1 {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  z-index: 1;
+  letter-spacing: 2px;
+}
+
 h2 {
   color: #3d5a80;
   border-bottom: 3px solid #3d5a80;
@@ -174,6 +200,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
