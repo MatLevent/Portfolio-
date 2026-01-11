@@ -92,13 +92,12 @@ section {
   text-align: center;
 }
 
-/* Project Features Edge-to-Edge */
 .project-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;             /* space between video and text */
   width: 100%;
   padding: 50px 20px;
-  display: flex;
-  align-items: center;
-  gap: 30px;
   box-sizing: border-box;
 }
 
@@ -106,24 +105,53 @@ section {
   flex-direction: row-reverse;
 }
 
-.project-media video {
-  width: 100%;
-  max-width: nope;
-  border-radius: 10px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+.project-media,
+.project-info {
+  flex: 1;               /* each takes roughly 50% */
 }
+
 .project-media iframe {
   width: 100%;
-  height: 500px; /* you can adjust this */
+  height: 100%;          /* fills the column height */
+  min-height: 400px;     /* ensures a minimum large size */
   border-radius: 10px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
-@media (max-width: 768px) {
+/* Keep project info text neat */
+.project-info h2 {
+  font-size: 2.2rem;
+  color: #3d5a80;
+  border-bottom: 3px solid #3d5a80;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+.project-role {
+  font-weight: bold;
+  color: #3d5a80;
+  margin-bottom: 15px;
+}
+
+.project-info p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 900px) {
+  .project-feature,
+  .project-feature.reverse {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
   .project-media iframe {
-    height: 300px;
+    height: 300px;      /* smaller on mobile */
   }
 }
+
 
 .project-info {
   flex: 1;
@@ -248,6 +276,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
