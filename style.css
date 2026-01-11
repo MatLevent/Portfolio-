@@ -36,7 +36,7 @@ nav {
 
 header .logo {
   font-weight: 900;          /* extra bold */
-  font-size: 3rem;           /* bigger */
+  font-size: 5rem;           /* bigger */
   letter-spacing: 2px;
   color: white;
 }
@@ -296,6 +296,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
