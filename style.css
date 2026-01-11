@@ -69,13 +69,9 @@ section {
 }
 
 .projects-hero {
-  position: relative;
-
-  /* FULL WIDTH BREAKOUT */
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-
   height: 420px;
+
   background-image: url("images/projects-banner.jpg");
   background-size: cover;
   background-position: center;
@@ -84,41 +80,31 @@ section {
   align-items: center;
   justify-content: center;
 
-  overflow: hidden;
+  position: relative;
+  margin-left: calc(50% - 50vw);
 }
-
-/* Dark overlay */
-.projects-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  z-index: 1;
-}
-
-/* Curved white bottom */
-.projects-hero::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: 140px;
-  background: white;
-  border-radius: 0 0 100% 100%;
-  z-index: 2;
-}
-
-/* Title text */
 .projects-hero h1 {
   position: relative;
-  z-index: 3;
   color: white;
   font-size: 4rem;
   font-weight: 900;
   letter-spacing: 2px;
   text-align: center;
 }
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .projects-hero {
+    height: 280px;
+  }
+
+  .projects-hero h1 {
+    font-size: 2.2rem;
+    padding: 0 20px;
+  }
+}
+
 
 .project-feature {
   max-width: 1200px;
@@ -284,6 +270,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
