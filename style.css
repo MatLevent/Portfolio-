@@ -36,7 +36,7 @@ nav {
 
 header .logo {
   font-weight: 900;          /* extra bold */
-  font-size: 7rem;           /* bigger */
+  font-size: 3rem;           /* bigger */
   letter-spacing: 2px;
   color: white;
 }
@@ -86,7 +86,7 @@ section {
 .projects-hero h1 {
   position: relative;
   color: white;
-  font-size: 4rem;
+  font-size: 7rem;
   font-weight: 900;
   letter-spacing: 2px;
   text-align: center;
@@ -296,6 +296,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
