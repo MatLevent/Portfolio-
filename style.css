@@ -39,24 +39,48 @@ nav {
   color: white;
 }
 
+/* Header Navigation Links */
 header nav a {
   position: relative;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding-bottom: 4px; /* space for underline */
+  padding-bottom: 4px; /* reserve space for underline to prevent shift */
+  transition: color 0.3s;
 }
 
-header nav a.active::after {
+/* Active link underline */
+header nav a.active::after,
+header nav a:hover::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 3px; /* underline thickness */
+  height: 3px; /* thickness of underline */
   background-color: white;
   border-radius: 2px;
+  transition: width 0.3s; /* smooth animation */
 }
+
+/* Invisible underline for non-active links to prevent jump */
+header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; /* hidden by default */
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+/* Hover effect for other links */
+header nav a:hover::after {
+  width: 100%;
+}
+
 
 /* Header Titles */
 header h1 {
@@ -371,6 +395,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
