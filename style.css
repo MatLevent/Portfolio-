@@ -29,8 +29,8 @@ header {
   margin-top: 0;
 
   /* Rounded bottom */
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 120px;
 }
 
 .page-banner h1 {
@@ -420,6 +420,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
