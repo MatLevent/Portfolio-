@@ -62,6 +62,109 @@ header p {
   margin-top: 10px;
   font-size: 1.1rem;
 }
+.about-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Headings */
+.about-wrapper h2 {
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+/* Paragraph text */
+.about-wrapper p {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Divider */
+.about-wrapper hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 40px 0;
+}
+
+/* Skills pills */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #e0ebff;
+  color: #3d5a80;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Software line */
+.software-list {
+  font-weight: 600;
+  color: #3d5a80;
+}
+/* About Section Layout */
+.about-section {
+  padding: 80px 20px;
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.profile-header h1 {
+  margin-top: 20px;
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+.profile-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Centered Content Column */
+.about-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about-wrapper h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.about-wrapper p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Profile Image Refinement */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* CV Button (Improved Placement) */
+.profile-header .cv-link {
+  margin-top: 25px;
+}
 
 /* Make all sections full width */
 section {
@@ -296,6 +399,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
