@@ -1,3 +1,4 @@
+/* General Body */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,10 +7,11 @@ body {
   overflow-x: hidden; /* prevent horizontal scroll */
 }
 
+/* Header */
 header { 
   background: linear-gradient(135deg, #3d5a80, #3d5a81); 
   color: white; 
-  padding: 45px 20px ; /* reduced bottom padding */
+  padding: 45px 20px;
   text-align: center;
   position: relative;
   z-index: 10;
@@ -31,19 +33,16 @@ nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-weight: bold;
-}
-
-header .logo {
-  font-weight: 900;          /* extra bold */
-  font-size: 3rem;           /* bigger */
+  font-weight: 900;
+  font-size: 3rem;
   letter-spacing: 2px;
   color: white;
 }
+
 header nav a {
   position: relative;
   color: white;
-  text-decoration: none; /* remove default underline */
+  text-decoration: none;
   font-weight: bold;
   padding-bottom: 4px; /* space for underline */
 }
@@ -54,12 +53,12 @@ header nav a.active::after {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 3px; /* thickness of underline */
+  height: 3px; /* underline thickness */
   background-color: white;
   border-radius: 2px;
 }
 
-
+/* Header Titles */
 header h1 {
   margin: 0;
   font-size: 2.5rem;
@@ -69,37 +68,18 @@ header p {
   margin-top: 10px;
   font-size: 1.1rem;
 }
-.about-wrapper {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 40px 20px;
+
+/* Section Layout */
+section {
+  width: 100%;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
-/* Headings */
-.about-wrapper h2 {
-  font-size: 1.6rem;
-  margin-bottom: 14px;
-  font-weight: 700;
-}
-
-/* Paragraph text */
-.about-wrapper p {
-  line-height: 1.7;
-  font-size: 1rem;
-  color: #333;
-}
-
-/* Divider */
-.about-wrapper hr {
-  border: none;
-  border-top: 1px solid rgba(0,0,0,0.1);
-  margin: 40px 0;
-}
-/* About Section Layout */
 .about-section {
-  padding: 80px 20px;
   max-width: 720px;
   margin: 0 auto;
+  padding: 80px 20px;
 }
 
 /* Profile Header */
@@ -123,38 +103,16 @@ header p {
   margin-right: auto;
 }
 
-/* Centered Content Column */
-.about-wrapper {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.about-wrapper h2 {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  font-weight: 700;
-  color: #1a1a1a;
-}
-
-.about-wrapper p {
-  line-height: 1.7;
-  margin-bottom: 16px;
-  color: #333;
-  font-size: 1rem;
-}
-
-/* Profile Image Refinement */
+/* Profile Image */
 .profile-pic {
   width: 160px;
   height: 160px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: none;
-  border: none; /* remove previous white border */
-  transition: none; /* remove hover scaling */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-/* Contact Links in Profile Section */
+
+/* Contact Links under Profile */
 .profile-header .contact-links {
   margin-top: 20px;
   text-align: center;
@@ -178,7 +136,7 @@ header p {
   color: #2f4868;
 }
 
-/* CV Button (Improved Placement) */
+/* CV Button */
 .profile-header .cv-link {
   margin-top: 25px;
   display: inline-block;
@@ -197,7 +155,34 @@ header p {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Skills pills */
+/* About Wrapper */
+.about-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-wrapper h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.about-wrapper p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 1rem;
+}
+
+.about-wrapper hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 40px 0;
+}
+
+/* Skills Pills */
 .skills-list {
   list-style: none;
   padding: 0;
@@ -215,6 +200,7 @@ header p {
   font-weight: 600;
 }
 
+/* Software List with Logos */
 .software-list {
   list-style: none;
   padding: 0;
@@ -227,82 +213,25 @@ header p {
 .software-list li {
   display: flex;
   align-items: center;
-  gap: 4px; /* smaller gap for a tighter look */
+  gap: 4px; /* small space between icon and text */
   background: #e0ebff;
-  padding: 6px 10px; /* slightly smaller padding */
+  padding: 6px 10px;
   border-radius: 6px;
   font-weight: bold;
   color: #3d5a80;
 }
 
 .software-list li img.software-logo {
-  height: 16px; /* smaller icon height */
+  height: 16px; /* small icon size */
   width: auto;
-  vertical-align: middle; /* align nicely with text */
+  vertical-align: middle;
 }
 
-
-
-/* Profile Header */
-.profile-header {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.profile-header h1 {
-  margin-top: 20px;
-  font-size: 2.6rem;
-  font-weight: 900;
-}
-
-.profile-title {
-  margin-top: 10px;
-  font-size: 1rem;
-  color: #555;
-}
-
-/* Centered Content Column */
-.about-wrapper {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-.about-wrapper h2 {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-}
-
-.about-wrapper p {
-  line-height: 1.7;
-  margin-bottom: 16px;
-  color: #333;
-}
-
-/* Profile Image Refinement */
-.profile-pic {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-/* CV Button (Improved Placement) */
-.profile-header .cv-link {
-  margin-top: 25px;
-}
-
-/* Make all sections full width */
-section {
-  width: 100%;
-  padding: 50px 20px;
-  box-sizing: border-box;
-}
-
+/* Projects Hero Section */
 .projects-hero {
   width: 100vw;
   height: 500px;
-  background-image: url("images/project-banner.jpg"); /* fixed filename */
+  background-image: url("images/project-banner.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -327,83 +256,34 @@ section {
   width: 100%;
   padding: 50px 20px;
   box-sizing: border-box;
-  gap: 0; /* spacing handled in text column */
+  gap: 0;
 }
 
 .project-feature.reverse {
   flex-direction: row-reverse;
 }
 
-/* Video Column */
 .project-media {
-  flex: 0 0 50%; /* video spans 2 quarters */
+  flex: 0 0 50%;
 }
 
 .project-media iframe {
   width: 100%;
   height: 500px;
   min-height: 400px;
-  border-radius: 0;
   box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
-/* Text Column */
 .project-info {
-  flex: 0 0 50%; /* other 2 quarters */
+  flex: 0 0 50%;
   display: flex;
-  justify-content: center; /* center the text horizontally in column */
-  align-items: center;     /* center vertically relative to video */
+  justify-content: center;
+  align-items: center;
   padding: 0 20px;
 }
 
 .project-text {
-  max-width: 50%; /* text occupies half of its column = 25% of page */
-}
-
-/* Text Styling */
-.project-info h2 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
-}
-
-.project-role {
-  font-weight: bold;
-  color: #3d5a80;
-  margin-bottom: 20px;
-}
-
-.project-info p {
-  line-height: 1.7;
-  margin-bottom: 14px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 900px) {
-  .project-feature,
-  .project-feature.reverse {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .project-info {
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 20px 0;
-  }
-
-  .project-text {
-    max-width: 100%; /* full width on mobile */
-  }
-
-  .project-media iframe {
-    height: 300px;
-  }
-}
-
-
-
-.project-info {
-  flex: 1;
+  max-width: 50%;
 }
 
 .project-info h2 {
@@ -422,7 +302,7 @@ section {
   margin-bottom: 14px;
 }
 
-/* Skills */
+/* Skills in Project Cards */
 .skills li {
   display: inline-block;
   background: #e0ebff;
@@ -433,6 +313,7 @@ section {
   font-weight: bold;
 }
 
+/* Project Box */
 .project {
   background: white;
   padding: 20px;
@@ -442,7 +323,7 @@ section {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* Footer full width */
+/* Footer */
 footer {
   width: 100%;
   background: linear-gradient(135deg, #3d5a80, #3d5a81);
@@ -452,13 +333,27 @@ footer {
   box-sizing: border-box;
 }
 
-/* Responsive adjustments */
+/* Responsive Adjustments */
 @media (max-width: 900px) {
   .project-feature,
   .project-feature.reverse {
     flex-direction: column;
     text-align: center;
     gap: 30px;
+  }
+
+  .project-info {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  .project-text {
+    max-width: 100%;
+  }
+
+  .project-media iframe {
+    height: 300px;
   }
 
   .project-media video {
@@ -476,55 +371,6 @@ footer {
     padding: 0 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
