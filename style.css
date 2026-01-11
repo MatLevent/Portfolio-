@@ -16,6 +16,58 @@ header {
   position: relative;
   z-index: 10;
 }
+/* Banner */
+.page-banner {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, #85a8d6, #85a8d7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 0;
+  border-bottom-left-radius: 50% 100px;
+  border-bottom-right-radius: 50% 100px;
+}
+
+.banner-title {
+  font-size: 7rem; /* really big title */
+  color: white;
+  text-align: center;
+}
+
+/* Video section */
+.video-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.video-container {
+  width: 90%;
+  max-width: 1200px;
+  aspect-ratio: 16/9; /* keeps video proportional */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Centered compositing intro text */
+.compositing-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.compositing-intro .intro-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
 
 /* Page Banner Rigging*/
 .page-banner {
@@ -449,6 +501,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
