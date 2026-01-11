@@ -197,18 +197,20 @@ header p {
 .software-list li {
   display: flex;
   align-items: center;
-  gap: 8px; /* space between logo and text */
+  gap: 4px; /* smaller gap for a tighter look */
   background: #e0ebff;
-  padding: 6px 12px;
+  padding: 6px 10px; /* slightly smaller padding */
   border-radius: 6px;
   font-weight: bold;
   color: #3d5a80;
 }
 
 .software-list li img.software-logo {
-  height: 24px; /* uniform icon height */
+  height: 16px; /* smaller icon height */
   width: auto;
+  vertical-align: middle; /* align nicely with text */
 }
+
 
 
 /* Profile Header */
@@ -444,6 +446,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
