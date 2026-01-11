@@ -143,7 +143,7 @@ header p {
   height: 160px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: none;
   border: none; /* remove previous white border */
   transition: none; /* remove hover scaling */
 }
@@ -428,6 +428,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
