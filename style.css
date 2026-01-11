@@ -70,14 +70,20 @@ section {
 
 .projects-hero {
   position: relative;
-  width: 100%;
+
+  /* FULL WIDTH BREAKOUT */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+
   height: 420px;
-  background-image: url("images/projects-banner.jpg"); /* your image */
+  background-image: url("images/projects-banner.jpg");
   background-size: cover;
   background-position: center;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   overflow: hidden;
 }
 
@@ -278,6 +284,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
