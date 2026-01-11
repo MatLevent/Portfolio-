@@ -109,6 +109,62 @@ section {
   font-size: 3.5rem;
   letter-spacing: 2px;
 }
+.project-feature {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.project-feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-media video {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.project-role {
+  font-weight: bold;
+  color: #3d5a80;
+  margin-bottom: 20px;
+}
+
+.project-info p {
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+@media (max-width: 900px) {
+  .projects-hero h1 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .project-feature,
+  .project-feature.reverse {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .project-media video {
+    max-width: 100%;
+  }
+}
 
 
 h2 {
@@ -217,6 +273,7 @@ footer p {
   margin: 5px 0;
   font-size: 0.95rem;
 }
+
 
 
 
