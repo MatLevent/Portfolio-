@@ -120,8 +120,8 @@ section {
 
 .profile-title {
   margin-top: 10px;
-  font-size: 1rem;
-  color: #555;
+  font-size: 2rem;
+  color: #707070;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -395,6 +395,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
