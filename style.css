@@ -18,9 +18,22 @@ header {
 }
 /* Banner Comp */
 
+.page-banner {
+  width: 100%;
+  height: 300px; /* keeps the banner tall */
+  background: linear-gradient(135deg, #85a8d6, #85a8d7); /* gradient background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 0;
+  border-bottom-left-radius: 0; /* no rounding */
+  border-bottom-right-radius: 0; /* no rounding */
+}
+
 .banner-title {
-  font-size: 7rem; /* really big title */
-  color: black;
+  font-size: 7rem; /* big title */
+  color: white;
   text-align: center;
 }
 
@@ -489,6 +502,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
