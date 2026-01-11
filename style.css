@@ -166,7 +166,7 @@ section {
   display: inline-block;
   padding: 12px 20px;
   background: #3d5a80;
-  color: white;
+  color: #111111;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
@@ -395,6 +395,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
