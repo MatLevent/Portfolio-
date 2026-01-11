@@ -185,15 +185,31 @@ header p {
   font-weight: 600;
 }
 
-/* Software line */
 .software-list {
-  font-weight: 600;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.software-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between logo and text */
+  background: #e0ebff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
   color: #3d5a80;
 }
-/* About Section Layout */
-.about-section {
-  padding: 80px 20px;
+
+.software-list li img.software-logo {
+  height: 24px; /* uniform icon height */
+  width: auto;
 }
+
 
 /* Profile Header */
 .profile-header {
@@ -428,6 +444,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
