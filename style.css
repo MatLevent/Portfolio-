@@ -113,7 +113,7 @@ section {
   width: 100%;            /* fill the column width */
   height: 500px;          /* large enough for cinematic look */
   min-height: 400px;      /* fallback for smaller screens */
-  border-radius: 10px;
+  border-radius: none;
   box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
@@ -260,6 +260,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
