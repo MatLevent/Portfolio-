@@ -98,7 +98,7 @@ section {
   padding: 50px 20px;
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 30px;
   box-sizing: border-box;
 }
 
@@ -108,7 +108,7 @@ section {
 
 .project-media video {
   width: 100%;
-  max-width: 560px;
+  max-width: nope;
   border-radius: 10px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
@@ -236,6 +236,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
