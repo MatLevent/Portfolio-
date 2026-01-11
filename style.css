@@ -9,8 +9,10 @@ body {
 header { 
   background: linear-gradient(135deg, #3d5a80, #3d5a81); 
   color: white; 
-  padding: 50px 20px; 
+  padding: 40px 20px 0 20px; /* reduced bottom padding */
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
 
 .nav-container {
@@ -70,7 +72,7 @@ section {
 
 .projects-hero {
   width: 100vw;
-  height: 420px;
+  height: 500px;
   background-image: url("images/project-banner.jpg"); /* fixed filename */
   background-size: cover;
   background-position: center;
@@ -78,7 +80,8 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: calc(50% - 50vw);
+  margin: 0; /* remove any offset */
+  padding: 0;
 }
 
 .projects-hero h1 {
@@ -234,6 +237,7 @@ footer {
     padding: 0 20px;
   }
 }
+
 
 
 
