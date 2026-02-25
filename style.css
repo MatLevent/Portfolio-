@@ -518,9 +518,10 @@ footer {
 
 /* Make only the turnaround video half size */
 .turnaround-video {
-  width: 30%;
+  width: 70%;
   height: auto;
 }
+
 
 
 
