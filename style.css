@@ -504,28 +504,7 @@ footer {
 }
 
 
-.leo-video-row {
-  display: flex;
-  gap: 40px;
-  margin-top: 30px;
-}
-
-.leo-video {
-  flex: 1;
-}
-
-.leo-video iframe,
-.leo-video video {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
-}
-
-
-
-
-
-/* Make Leo videos sit nicely side by side */
+* Make Leo videos sit nicely side by side */
 .leo-video-row {
   display: flex;
   align-items: center;
@@ -539,9 +518,10 @@ footer {
 
 /* Make only the turnaround video half size */
 .turnaround-video {
-  width: 50%;
+  width: 30%;
   height: auto;
 }
+
 
 
 
