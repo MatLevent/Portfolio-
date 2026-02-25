@@ -525,6 +525,23 @@ footer {
 
 
 
+/* Make Leo videos sit nicely side by side */
+.leo-video-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Keep both media containers flexible */
+.leo-video-row .project-media {
+  flex: 1;
+}
+
+/* Make only the turnaround video half size */
+.turnaround-video {
+  width: 50%;
+  height: auto;
+}
 
 
 
