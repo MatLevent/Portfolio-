@@ -508,7 +508,7 @@ footer {
 .leo-video-row {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 /* Keep both media containers flexible */
@@ -518,9 +518,10 @@ footer {
 
 /* Make only the turnaround video half size */
 .turnaround-video {
-  width: 70%;
+  width: 100%;
   height: auto;
 }
+
 
 
 
