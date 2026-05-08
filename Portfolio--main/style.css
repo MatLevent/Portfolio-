@@ -24,10 +24,11 @@ body {
   color: #1a1a1a;
   overflow-x: hidden; /* prevent horizontal scroll */
   letter-spacing: 0.05em; /* Increase spacing between letters */
+}
+
 /* Main content wrapper for page padding */
 .content-wrapper {
   padding: 0 160px;
-}
 }
 
 /* Header */
@@ -62,7 +63,6 @@ header {
   height: auto;
   width: auto;
 }
-}
 
 .logo {
   display: flex;
@@ -74,13 +74,6 @@ header {
   width: 48px;
   height: 48px;
   margin-right: 8px;
-}
-  margin-left: calc(-1 * 200px);
-  margin-right: calc(-1 * 200px);
-  box-sizing: border-box;
-  position: relative;
-  z-index: 10;
-  overflow-x: hidden;
 }
 /* Banner Comp */
 
